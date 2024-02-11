@@ -12,8 +12,9 @@ function fibonacci(num) {
 		return a;
 	}else if(num==1){
 		return b;
+	}else{
+		return c;
 	}
-	return c;
 }
 
 module.exports = fibonacci;
