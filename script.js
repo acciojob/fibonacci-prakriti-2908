@@ -8,6 +8,11 @@ function fibonacci(num) {
 		a=b;
 		b=c;
 	}
+	if(num==0){
+		return a;
+	}else if(num==1){
+		return b;
+	}
 	return c;
 }
 
