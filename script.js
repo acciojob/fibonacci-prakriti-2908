@@ -8,9 +8,9 @@ function fibonacci(num) {
 		a=b;
 		b=c;
 	}
-	if(num==0){
+	if(num==1){
 		return a;
-	}else if(num==1){
+	}else if(num==2){
 		return b;
 	}else{
 		return c;
